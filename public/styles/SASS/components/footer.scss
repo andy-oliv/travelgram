@@ -1,0 +1,14 @@
+@use "../abstract/colors.scss";
+@use "../abstract/fonts.scss";
+
+footer{
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    color: colors.$secondaryText;
+    font-size: 0.8rem;
+    div{
+        display: flex;
+        gap: 1em;
+    }
+}
